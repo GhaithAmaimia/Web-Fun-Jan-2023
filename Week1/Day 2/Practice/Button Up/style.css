@@ -1,0 +1,30 @@
+.search{
+    border-color: rgb(28, 226, 173);
+    background-color: whitesmoke;
+    height: 30px;
+    width: 140px;
+    border-radius: 40%;
+    color: rgb(28, 226, 173);
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+
+.plus{
+    border-radius: 50%;
+    background-color: rgb(28, 226, 173);
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-color:rgb(28, 226, 173);
+    font-size: large;
+    
+}
+.create{
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px black;
+    margin: 10px;
+}
