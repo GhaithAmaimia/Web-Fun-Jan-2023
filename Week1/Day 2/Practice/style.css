@@ -8,12 +8,14 @@ h2{
     text-align: center;
     font-family: cursive;
     font-style: italic;
+    font-weight: lighter;
     background-color: rgb(98, 5, 137);
     color: white;
 }
 h3{
     text-align: right;
     font-family: cursive;
+    font-weight: lighter;
     background-color:rgb(130, 168, 239);
     text-decoration:underline;
 }
