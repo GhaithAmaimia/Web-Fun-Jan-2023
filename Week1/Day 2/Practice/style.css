@@ -1,0 +1,19 @@
+h1{
+    text-align: left;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    background-color: rgb(98, 5, 137);
+    color: white;
+}
+h3{
+    text-align: right;
+    font-family: cursive;
+    background-color:rgb(130, 168, 239);
+    text-decoration:underline;
+}
