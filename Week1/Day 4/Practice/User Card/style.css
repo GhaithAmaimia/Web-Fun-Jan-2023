@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.top{
+    background-color: #17a2b8;
+    height: 80px;
+    width: 500px;
+    margin-bottom: 60px;
+}
+.img1{
+    margin-left: 20px;
+}
+.card{
+    border-style: solid;
+    border-color: #cccccc;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.place{
+    display: flex;
+
+}
+.img1{
+margin-top: 30px;
+border: solid;
+border-color: #cccccc;
+border-radius: 50%;
+}
+.bottom{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.img3{
+    margin-top: 10px;
+}
