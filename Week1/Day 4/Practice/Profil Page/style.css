@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.nav{
+    background-color:rgb(44, 39, 39);
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.nav-title{
+    justify-content: flex-start;
+    color: white;
+    margin-left: 200px;
+    margin-right: 50px;
+
+}
+.nav-links{
+    width: 300px;
+    display: flex; 
+    list-style-type: none;
+    justify-content:space-between
+
+
+}
+
+.btn{
+    border: solid;
+    border-color: black;
+    background-color:darkturquoise ;
+    color: white;
+    box-shadow: 5px 5px black;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+
+.top{
+    background-color: #17a2b8;
+    height: 80px;
+    width: 500px;
+    margin-bottom: 60px;
+}
+.img1{
+    margin-left: 20px;
+}
+.leftside{
+    margin-top: 40px;
+}
+.usercard{
+    border-style: solid;
+    border-color: #cccccc;
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 200px;
+
+}
+.place{
+    display: flex;
+}
+
+.img1{
+margin-top: 30px;
+border: solid;
+border-color: #cccccc;
+border-radius: 50%;
+}
+.bottom{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.img3{
+    margin-top: 10px;
+}
+.top1{
+    display: flex;
+}
+
+.topside{
+    height: 180px;
+    width: 250px;
+    border: solid;
+    border-color:#cccccc ;
+    margin-bottom: 25px;
+}
+.top1{
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    height: 50px;
+    justify-content: space-evenly;
+}
+.two{
+    border: 3px solid;
+    background-color: #ccc;
+    border-radius: 50%;
+    color: black;
+    width: 20px;
+    text-align: center;
+}
+.todd{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.toddImg{
+border: 3px solid;
+border-color: black;
+border-radius: 50%;
+margin-left: 10px;
+
+}
+.toddE{
+    margin-left: 15px;
+    margin-right: 25px;
+}
+.phil{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.philImg{
+border: 3px solid;
+border-color: black;
+border-radius: 50%;
+margin-left: 10px;
+}
+.philK{
+    margin-left: 15px;
+    margin-right: 38px;
+}
+.main{
+    height: 160px;
+    width: 500px;
+    border: 3px solid;
+    border-color: #ccc;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.top3{
+    background-color: #333;
+    height: 40px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.educ{ 
+    margin-left: 20px;
+}
+.education{
+    margin-left: 20px;
+}
+.greyP{
+    color: #7f7f7f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.connection{
+    height: 250px;
+    width: 250px;
+    border: 3px solid;
+    border-color: #cccccc;
+}
+.top4{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #333333;
+    justify-content: space-evenly;
+}
+.rightside{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.five{
+    border: 3px solid;
+    border-color:black ;
+    border-radius: 50%;
+    background-color:#ccc ;
+    color: black;
+}
+.adrien{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.adrienImg{
+    border: 3px solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.adrienD{
+    margin-left: 20px;
+}
+.anne{
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+}
+.anneImg{
+    border: 3px solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.anneJ{
+    margin-left: 20px; 
+}
+.alayne{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.alayneImg{
+    border: 3px solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.alayneT{
+    margin-left: 20px; 
+}
+.arry{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.arryImg{
+    border: 3px solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.arryY{
+    margin-left: 20px; 
+}
+.Profilpage{
+    display: flex;
+}
+.view{
+    height: 40px;
+    width: 250px;
+    border: 3px solid;
+    border-color: #cccccc;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+.vieww{
+
+    margin-left: 20px;
+}
