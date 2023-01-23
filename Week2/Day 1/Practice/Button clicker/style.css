@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contain{
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.navbar{
+    height: 60px;
+    width: 1000px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.search{
+border: 3px solid;
+border-color: black;
+width: 300px;
+}
+.login{
+    border: 3px solid;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    background-color: #2b78e4;
+    color: white;
+}
+.left{
+    height: 180px;
+    width: 400px;
+    border: 3px solid;
+    border-color: black;
+}
+.center1{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+.middle1{
+    display: flex;
+    align-items: center;
+}
+.like1{
+    border: 3px solid;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    background-color: #ffd966;
+    margin-top: 20px;
+}
+.top{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.right{
+    height: 150px;
+    width: 200px;
+    border: 3px solid;
+    border-color: black;
+    font-size: 30px;
+    margin-left: 163px;
+}
+.add{
+    border: 3px solid;
+    border-color: black;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+    width: 130px;
+    margin-left: 30px;
+}
+.p1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.buttom{
+    height: 180px;
+    width: 400px;
+    border: 3px solid;
+    border-color: black;
+    margin-left: 150px;
+    margin-top: 50px;
+}
