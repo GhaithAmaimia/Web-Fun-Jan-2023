@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 850px;
+}
+/* NAVBAR STYLE */
+.navbar{
+    display: flex;
+    background-color: #9fc5f8;
+    color: white;
+    align-items: center;
+    height: 60px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-around;
+}
+/* MAIN STYLE */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:2px solid black;
+    padding: 10px;
+}
+.mid{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.temperature{
+    display: flex;
+}
+.today{
+    display: flex;
+    background-color: #eeeeee;
+    width: 180px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#rain, #sun, #cloud{
+    width: 100px;
+    border-radius: 50%;
+}
+.tomorrow{
+    display: flex;
+    background-color: #eeeeee;
+    width: 180px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.friday{
+    display: flex;
+    background-color: #eeeeee;
+    width: 180px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.saturday{
+    display: flex;
+    background-color: #eeeeee;
+    width: 180px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.degree{
+    display: flex;
+    justify-content: space-evenly;
+    color: #cf2a27;
+}
+span{
+    color:#2b78e4;
+    margin-left: 40px;
+}
+/* COOKIE STYLE */
+.buttom{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+    border: 3px solid black;
+    position: fixed;
+    width: 825px;
+}
+.buttom button{
+    background-color: #9fc5f8;
+    width: 80px;
+    box-shadow: 2px 2px black;
+}

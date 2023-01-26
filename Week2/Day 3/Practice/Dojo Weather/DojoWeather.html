@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- THE NAVBAR START -->
+    <div class="navbar">
+        <h1>
+            DojoWeather
+        </h1>
+        <div class="nav-links">
+            <ul class="links">
+                <li onclick="loading(this)">Burbank</li>
+                <li onclick="loading(this)">Chicago</li>
+                <li onclick="loading(this)">Dallas</li>
+            </ul>
+
+        </div>
+        <!-- THE NAVBAR END -->
+    </div>
+    <div class="container">
+    
+    <!-- THE MAIN START -->
+    <div class="main">
+        <div class="top">
+    <h2>
+        San Jose
+    </h2>
+    <div class="temperature">
+        <p>
+            show temperature in
+        </p>
+        <select>
+            <option onchange="celcius()">°C</option>
+            <option onchange="fahrenheit()">°F</option>
+        </select>
+
+    </div>
+    </div>
+    <div class="mid">
+        <div class="today">
+            <h3>
+                Today
+            </h3>
+            <img id="rain" src="./assets/some_rain.png" alt="rain-image">
+            <p>
+                some rain
+            </p>
+            <div class="degree">
+                <h3>24°<span>18°</span></h3>
+
+            </div>
+        </div>
+
+        <div class="tomorrow">
+            <h3>
+                tomorrow
+            </h3>
+            <img id="sun" src="./assets/some_sun.png" alt="sun-image">
+            <p>
+                some sun
+            </p>
+            <div class="degree">
+                <h3>27°<span>19°</span></h3>
+            </div>
+            </div>
+
+        <div class="friday">
+            <h3>
+                Friday
+            </h3>
+            <img id="cloud" src="./assets/some_clouds.png" alt="cloud-image">
+            <p>
+                some clouds
+            </p>
+            <div class="degree">
+                <h3> 21°<span>16°</span></h3>
+
+        </div>
+        </div>
+        <div class="saturday">
+            <h3>
+                Saturday
+            </h3>
+            <img id="rain" src="./assets/some_sun.png" alt="sun-image">
+            <p>
+                some sun
+            </p>
+            <div class="degree">
+                <h3>26° <span>21°</span></h3>
+
+        </div>
+    </div>
+    </div>
+    <div class="buttom">
+        <img src="./assets/cookie.png" alt="cookie-image">
+        <div>
+            <h4>
+                Stop! Cookie time 
+            </h4>
+            <p>we use cookies(sadly not the edible ones) tot personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button onclick="remove()">I Accept</button>
+
+    </div>
+    </div>
+    </div>
+    <!-- THE MAIN END -->
+    
+<script src="script.js"></script>
+</body>
+</html>
